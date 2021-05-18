@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/*Обнуление*/
+
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
@@ -1268,7 +1268,7 @@ $font-family:"Lato";
   .icon-menu {
     display: block;
     position: absolute;
-    top: 18px;
+    /* top: 18px;*/
     right: 10px;
     width: 30px;
     height: 18px;
@@ -1295,7 +1295,7 @@ $font-family:"Lato";
   }
 
   .icon-menu.active {
-    top: 8px;
+    top: 28px;
   }
 
   .icon-menu.active span {
@@ -1432,7 +1432,7 @@ $font-family:"Lato";
   .icon-menu {
     display: block;
     position: absolute;
-    top: 18px;
+    /* top: 18px;*/
     right: 10px;
     width: 30px;
     height: 18px;
@@ -1459,7 +1459,7 @@ $font-family:"Lato";
   }
 
   .icon-menu.active {
-    top: 8px;
+    top: 28px;
   }
 
   .icon-menu.active span {
