@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-
+/*Обнуление*/
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
@@ -164,6 +164,9 @@ h6 {
   padding: 4px 0 3px 0;
   border-top: 1px solid #000000;
   border-bottom: 1px solid #000000;
+  /*box-shadow: 0 8px 6px -6px black;*/
+  -webkit-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
 }
 
 .header__languages {
@@ -530,6 +533,35 @@ h6 {
   max-width: 100%;
 }
 
+.orders__card__footer__link img:hover {
+  cursor: pointer;
+  transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.orders-card__header img:hover {
+  cursor: pointer;
+  transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  -webkit-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
+
+.instruction:hover,
+.video:hover {
+  cursor: pointer;
+}
+
 .order-form__body {
   background-image: url("../img/formorder/formorder_background1.jpg"), url("../img/formorder/formorder_background2.jpg");
   background-position: left top, right top;
@@ -669,6 +701,8 @@ body {
 
 .submit-btn:hover {
   text-decoration: underline;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /*
@@ -808,6 +842,9 @@ $font-family:"Lato";
   padding: 4px 0 3px 0;
   border-top: 1px solid #000000;
   border-bottom: 1px solid #000000;
+  /*box-shadow: 0 8px 6px -6px black;*/
+  -webkit-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
 }
 
 .header__languages {
